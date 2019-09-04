@@ -21,13 +21,13 @@ public class CompleteActivity extends AppCompatActivity {
         setContentView(R.layout.activity_complete);
 
         Intent intent = getIntent();
-        String myAdjStr = intent.getStringExtra(MY_ADJ);
-        String myNounStr = intent.getStringExtra(MY_NOUN);
-        String myVerbStr = intent.getStringExtra(MY_VERB);
-        String myNumStr = intent.getStringExtra(MY_NUM);
+        String myAdj = intent.getStringExtra(MY_ADJ);
+        String myNoun = intent.getStringExtra(MY_NOUN);
+        String myVerb = intent.getStringExtra(MY_VERB);
+        String myNum = intent.getStringExtra(MY_NUM);
 
-        String strToDisplay = "I love " + myAdjStr + " " + myNounStr +
-                " because it " + myVerbStr + " for " + myNumStr + " hours.";
+        String strToDisplay = "I love " + myAdj + " " + myNoun +
+                " because it " + myVerb + " for " + myNum + " hours.";
         TextView str = (TextView) findViewById(R.id.info);
         str.setText(strToDisplay);
 

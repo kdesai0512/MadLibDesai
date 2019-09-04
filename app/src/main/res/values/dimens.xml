@@ -2,7 +2,9 @@
 <resources>
     <dimen name="start">8dp</dimen>
     <dimen name="word">20sp</dimen>
-    <dimen name="top">32dp</dimen>
-
+    <dimen name="top">8dp</dimen>
+    <dimen name="width">160dp</dimen>
+    <dimen name="height">39dp</dimen>
+    <dimen name="end">8dp</dimen>
 
 </resources>
