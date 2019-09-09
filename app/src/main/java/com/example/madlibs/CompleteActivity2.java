@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-public class CompleteActivity extends AppCompatActivity {
+public class CompleteActivity2 extends AppCompatActivity {
 
 
     public static final String MY_NAME = "name";
@@ -41,12 +41,12 @@ public class CompleteActivity extends AppCompatActivity {
 
 
 
-        String strToDisplay = "One day, a person named " + myName + " built a time machine. " + myName + " decided to go " +
-        myNum + " years into the future at the best place, " + myPlace + ". When " + myName + " arrived at " + myPlace + ", a " + myAnimal + " appeared and said 'It's about to happen!"
-                + " You should get out of here!' " + myName + " " + myVerb + " and felt " + myAdj + ". " + myName + " decided to ignore the " + myAnimal + " and went to go explore. After " + myNum +
-                 " minutes,  a "  + myNoun + " came out of nowhere and hit " + myName + " in the face. It began to rain " + myNoun + "s! " + myName + " started " + myVerb2 + "ing and saw the " +
-                myAnimal + " standing inside a building. " + myName + " walked up to the " + myAnimal + " and asked him how he knew that " + myNoun + "s were going to fall from the sky. The " + myAnimal
-                + " said that he was from the future!";
+        String strToDisplay = "A " + myNoun + " named " + myName + " had to go to school. It was their " +
+                myNum + " year of school at " + myPlace + " and "  + myName + " was so " + myAdj + " for their first day. As " +
+                myName + " entered the school, they saw the craziest thing. Their math teacher was " + myVerb2  + "ing on top of a giant " +
+                myAnimal + ". " + myName + " " + myVerb + " and asked their classmate what was happening. The classmate said that the principal had turned " +
+                "into a " + myAnimal + ". " + myName + " was so shocked and SO jealous because it was a lifelong dream for " + myName + " to become a " + myAnimal +
+                ". Suddenly, the alarm clock went off and " + myName + " woke up, disappointed";
         TextView str = (TextView) findViewById(R.id.info);
         str.setText(strToDisplay);
 

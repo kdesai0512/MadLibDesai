@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-public class CompleteActivity extends AppCompatActivity {
+public class CompleteActivity3 extends AppCompatActivity {
 
 
     public static final String MY_NAME = "name";
@@ -41,12 +41,13 @@ public class CompleteActivity extends AppCompatActivity {
 
 
 
-        String strToDisplay = "One day, a person named " + myName + " built a time machine. " + myName + " decided to go " +
-        myNum + " years into the future at the best place, " + myPlace + ". When " + myName + " arrived at " + myPlace + ", a " + myAnimal + " appeared and said 'It's about to happen!"
-                + " You should get out of here!' " + myName + " " + myVerb + " and felt " + myAdj + ". " + myName + " decided to ignore the " + myAnimal + " and went to go explore. After " + myNum +
-                 " minutes,  a "  + myNoun + " came out of nowhere and hit " + myName + " in the face. It began to rain " + myNoun + "s! " + myName + " started " + myVerb2 + "ing and saw the " +
-                myAnimal + " standing inside a building. " + myName + " walked up to the " + myAnimal + " and asked him how he knew that " + myNoun + "s were going to fall from the sky. The " + myAnimal
-                + " said that he was from the future!";
+        String strToDisplay = myNum + " years ago, my parents and I went on a cruise to " + myPlace + ". " +
+                "Although I was " + myAdj + " to go at the beginning, we had an amazing time! When we got there, I made a friend" +
+                " named " + myName + ". " + myName + " and I did everything together! " + " We " + myVerb + " during lunch and would eat " +
+                "dinner together. Once, we looked down into the water and saw a " + myAnimal + "! But the weird thing is, a few months after" +
+                " the cruise, my parents and I were " + myVerb2 + "ing and I asked them about " + myName + ". They told me that there was " +
+                "never a kid named " + myName + " on the cruise, but there was a story about a " + myNoun + " that lived on a cruise in " + myPlace + ". It turns " +
+                "out that I may have been hanging out with a " + myNoun + "! ";
         TextView str = (TextView) findViewById(R.id.info);
         str.setText(strToDisplay);
 
