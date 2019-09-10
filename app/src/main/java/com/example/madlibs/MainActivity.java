@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        /* I got the gradient from http://thetechnocafe.com/make-a-moving-gradient-background-in-android/ */
         TextView textView = findViewById(R.id.textView);
         TextView textView1 = findViewById(R.id.textView3);
         AnimationDrawable animationDrawable = (AnimationDrawable)
@@ -169,5 +170,9 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
     }
+
+
+
+
 
 }
